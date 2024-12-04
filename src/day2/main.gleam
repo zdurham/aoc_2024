@@ -56,5 +56,5 @@ pub fn run() {
     |> list.map(check_report_safety)
     |> list.count(fn(report_safety) { report_safety == True })
 
-  io.println("Part 1: " <> int.to_string(safe_reports_count))
+  io.println("Result: " <> int.to_string(safe_reports_count))
 }
